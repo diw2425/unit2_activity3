@@ -28,11 +28,11 @@
    - For example, add the `highlight` class to the first paragraph in `section`. Why does the color of this paragraph change or not change?
 
 10. **Change the specificity of `#special .text`**:
-   - Change `#special .text` to `div#special .text`. Does this affect the text color?
+    - Change `#special .text` to `div#special .text`. Does this affect the text color?
 
 11. **Add a new CSS rule**:
-   - Add a rule for `body p` with a new color, like `color: violet;`. Which paragraphs are affected and why?
+    - Add a rule for `body p` with a new color, like `color: violet;`. Which paragraphs are affected and why?
 
 12. **Change the order of CSS rules**:
-   - Move the `.highlight.intro` rule to another position in the CSS file. Does this change the result? Why?
+    - Move the `.highlight.intro` rule to another position in the CSS file. Does this change the result? Why?
 
