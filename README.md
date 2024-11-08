@@ -34,5 +34,5 @@
     - Add a rule for `body p` with a new color, like `color: violet;`. Which paragraphs are affected and why?
 
 12. **Change the order of CSS rules**:
-    - Move the `.highlight.intro` rule to another position in the CSS file. Does this change the result? Why?
+    - Move the `.highlight.intro` rule to another position in the CSS file. Does this change the result? Why? 
 
