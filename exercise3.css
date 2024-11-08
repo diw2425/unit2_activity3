@@ -1,0 +1,49 @@
+/* General rule for all paragraphs */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Specific class */
+.intro {
+    color: green;
+    font-style: italic;
+}
+
+/* Combined class */
+.highlight.intro {
+    color: orange;
+    font-weight: bold;
+}
+
+/* High-specificity ID */
+#special {
+    color: purple;
+    border: 1px solid black;
+}
+
+/* More specific selector for an element inside an ID */
+#special .text {
+    color: teal;
+}
+
+/* Class selector in the footer */
+.footer .footer-text {
+    color: brown;
+    font-size: 14px;
+}
+
+/* Universal selector combined with class */
+* .intro {
+    color: darkgreen;
+}
+
+/* Specific selector by ID */
+#special-paragraph {
+    color: navy;
+}
+
+/* Selector with class and element type */
+section p.intro {
+    color: darkorange;
+}

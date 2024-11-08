@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Example of CSS Cascade and Specificity</title>
+</head>
+<body>
+    <div class="container">
+        <header id="main-header" style="background-color: yellow;">
+            <h1 id="main-title" style="color: red;">Page Title</h1>
+            <p class="intro">Subtitle in the header with class "intro".</p>
+        </header>
+
+        <section class="content">
+            <p class="intro">This is an introduction paragraph in the main content.</p>
+            <p class="highlight intro" id="special-paragraph">This paragraph has two classes and an ID.</p>
+
+            <div class="box" id="special">
+                <p class="text">Text inside a div with an ID and a class.</p>
+                <p class="text" style="color: pink;">Text inside a div with inline style.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p class="footer-text" id="footer-text">This is text in the footer.</p>
+        </footer>
+    </div>
+</body>
+</html>
